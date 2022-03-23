@@ -33,16 +33,5 @@ public class Browser
 		
 		return driver;
 	}
-	
-	public static WebDriver launchIEBrowser()
-	{
-		System.setProperty("webdriver.edge.driver","C:\\Exefile\\edgedriver_win64\\msedgedriver.exe");
-		
-		WebDriver driver = new EdgeDriver();
-		
-		return driver;
-	}
-	
-	
-	
+
 }
